@@ -28,7 +28,7 @@ body {
 .header {
   text-align: center;
   margin: 20px;
-  padding: 1em; /*What does "em" mean?*/
+  padding: 1em; 
   background-color: var(--box-background-color);
   max-width: 1500px;
   border: 5px solid var(--border-color);
