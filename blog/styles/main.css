@@ -1,0 +1,119 @@
+:root {
+  /*keeps the colors for me*/
+  --box-background-color: #faf6ec;
+  --border-color: #c2cfb2;
+  --header-color: #800;
+  --sub-header-color: #e37463;
+  --text-color: #efa9ba;
+}
+html {
+  /*keeps things centered*/
+  display: flex;
+  justify-content: center;
+}
+.eczar-header {
+  /*inports the font */
+  font-family: 'Eczar', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+body {
+  /*the middle stuff*/
+  background-color: #ffffff;
+  max-width: 3000px;
+  font-family: 'Eczar', sans-serif;
+}
+
+.header {
+  text-align: center;
+  margin: 20px;
+  padding: 1em; /*What does "em" mean?*/
+  background-color: var(--box-background-color);
+  max-width: 1500px;
+  border: 5px solid var(--border-color);
+}
+
+.header h1 {
+  font-size: 40px;
+  color: var(--header-color);
+}
+
+.welcome-box {
+  margin: 20px;
+  padding: 25px;
+  background-color: var(--box-background-color);
+  max-width: 1500px;
+  border: 5px solid var(--border-color);
+}
+.welcome-box h2 {
+  font-size: 28px;
+  color: var(--header-color);
+}
+.welcome-box h3 {
+  font-size: 18px;
+  color: var(--sub-header-color);
+}
+.welcome-box h4 {
+  font-size: 18px;
+  color: var(--sub-header-color);
+  text-align: right;
+}
+.welcome-box p {
+  font-size: 18px;
+  color: var(--text-color);
+}
+
+.postbox {
+  margin: 20px;
+  padding: 25px;
+  background-color: var(--box-background-color);
+  max-width: 1500px;
+  border: 5px solid var(--border-color);
+}
+.postbox h2 {
+  font-size: 28px;
+  color: var(--header-color);
+}
+.postbox h3 {
+  font-size: 15px;
+  color: var(--sub-header-color);
+}
+.postbox h4 {
+  font-size: 18px;
+  color: var(--sub-header-color);
+  text-align: right;
+}
+.postbox p {
+  font-size: 18px;
+  color: var(--text-color);
+}
+
+.postbox ul {
+  font-size: 18px;
+  color: var(--text-color);
+}
+
+.link {
+  font-size: 18px;
+  color: var(--sub-header-color);
+}
+.link a:hover {
+  color: var(--header-color);
+}
+.footer {
+  text-align: center;
+  color: var(--header-color);
+}
+#post-one-wall {
+  max-width: 30vw;
+  min-width: 300px;
+}
+.span {
+  font-size: 18px;
+  color: var(--text-color);
+}
+.pink-text {
+  font-size: 18px;
+  color: var(--text-color);
+}
