@@ -28,7 +28,7 @@ body {
 .header {
   text-align: center;
   margin: 20px;
-  padding: 1em; 
+  padding: 1em;
   background-color: var(--box-background-color);
   max-width: 1500px;
   border: 5px solid var(--border-color);
@@ -57,7 +57,7 @@ body {
 .welcome-box h4 {
   font-size: 18px;
   color: var(--sub-header-color);
-  text-align: right;
+  text-align: left;
 }
 .welcome-box p {
   font-size: 18px;
@@ -82,7 +82,7 @@ body {
 .postbox h4 {
   font-size: 18px;
   color: var(--sub-header-color);
-  text-align: right;
+  text-align: left;
 }
 .postbox p {
   font-size: 18px;
