@@ -9,7 +9,7 @@
 html {
   /*keeps things centered*/
   display: flex;
-  justify-content: center;
+ justify-content: center;
 }
 .eczar-header {
   /*inports the font */
@@ -18,7 +18,7 @@ html {
   font-weight: 400;
   font-style: normal;
 }
-body {
+.body {
   /*the middle stuff*/
   background-color: #ffffff;
   max-width: 3000px;
