@@ -81,6 +81,7 @@ html {
 .postbox h4 {
   font-size: 18px;
   color: var(--sub-header-color);
+  text-align: left;
 }
 .postbox p {
   font-size: 18px;
