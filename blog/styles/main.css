@@ -57,7 +57,6 @@ body {
 .welcome-box h4 {
   font-size: 18px;
   color: var(--sub-header-color);
-  text-align: right;
 }
 .welcome-box p {
   font-size: 18px;
@@ -82,7 +81,6 @@ body {
 .postbox h4 {
   font-size: 18px;
   color: var(--sub-header-color);
-  text-align: left;
 }
 .postbox p {
   font-size: 18px;
