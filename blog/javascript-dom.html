@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Eczar:wght@400..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Adriana's Blog</title>
+    <link href="/blog/styles/main.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="header">
+      <h1>Adriana's Blog</h1>
+    </div>
+
+    <div class="postbox">
+      <h2>JavaScript and the DOM</h2>
+      <h3>Tech - Sprint 3 - 7/4/2024 - Dev Academy Foundations</h3>
+      <h4>JavaScript and its relationship to HTML and CSS.
+      </h4>
+      <p>To help explain the three's connection we'll use an analogy.<br>
+        Say we're building a playspace for our imaginary pet hamsters,<br>
+        The HTML is the main structure, it's the tunnels, wheel, hammocks crawl spaces etc', And the cage that holds it all. <br>
+        The CSS is the paint we've used, and the coloured dye we've used on the different pieces to make it look visually pleasing. <br>
+        The JavaScript is the ball bearings we've used to make the wheel spin around and around, the parts that make the automatic feeder and drink station work.<br>
+        Thus, in our website, <br>
+        HTML provides the base, CSS makes it pretty, and JavaScript adds the interactive elements that keep the people (and hamsters!) entertained.</p>
+      <img
+          id="post-one-wall"
+          src="/blog/HTML-CSS-JavaScript-InfoGraphic.png"
+          alt="A drawing of a hamster wheel going from sketch to having colours, to being able to move.">
+      <h4>Control flow and loops</h4>
+      <p>Are key parts of any webpage,<br>
+        We'd use control flow as such; Say our user has been invited to a party, they’re standing in front of our “closet”, This would be our application or website UI, <br>
+        It's full of clothes, these are our options, we call options “conditions”,<br>
+        Is it a fancy dinner party or a casual catch up?
+      </p>
+      <p>
+        If yes it's a Fancy dinner, we would direct them to grab a random dress or jumpsuit.<br>
+        If not, it must be a casual catch up. We'd direct them to pick a nice pair of jeans and a fun top.<br>
+      </p>
+      <p>Now, the user has some clothes, but we still need shoes,<br>
+        
+        This would be our loops:<br>
+        First we have an action, Try on a pair of shoes, <br>
+        Do these shoes match? Our condition,<br>
+        If Yes, Great, you're done!<br>
+        If no, loop, Back to the shoe rack our user goes to try another pair until we have found a pair that does eventually match.</p>
+        <p>And when we use them both at the same time; we can go looking for a matching necklace and earring set.<br>
+        User looks in a Jewelry box, looking for a matching necklace and earrings set. <br>
+        This would be our condition. <br>
+        If yes, Put them both on and you're done! <br>
+        If no, look again. <br>
+        
+        Our user has checked if the jewelry box has a matching set (control flow), and if not, the user has to repeat the search (loop) until finding one.
+        </p>
+        <h4>What is the Dom? </h4>
+       <p>The Dom could be like a map of a house. <br>
+        It breaks down the entire house (webpage) into its individual parts, <br>
+        For example; walls, door frames, doors, cupboards, stairs, ceilings and floors, (headings, paragraphs, images, and buttons)<br>
+        Each part becomes an object you can access and manipulate with Javascript. <br>
+        We call these parts “nodes” <br>
+        </p>
+        <p>Some of the things we can do with nodes are,</p>
+        <ul>
+          <li>Change or update text on the page (e.g., button labels, headings). “InnerHTML” is one of the ways of doing this.
+          </li>
+          <li>Modify parts styles, changing colors, fonts, or other visual aspects of elements.
+          </li>
+          <li>Add / create or Remove Elements from the page.
+          </li>
+          <li>Show or hide elements with user actions/events.
+          </li>
+          <li>Build buttons, menus, or other interactive components.
+          </li>
+          <li>Real-time information like social media feeds.
+          </li>
+          <li>Animations and transitions on the page.
+          </li>
+        </ul>
+        <p>Here is an example of using JavaScript to change the background color in a website's page.</p>
+        <img
+          id="post-one-wall"
+          src="/blog/Changing-background-with-JavaScript-infographic.png"
+          alt="image example of a pice of code finding a body element, and changing the color code">
+        <h4>The difference between accessing data from arrays and objects.</h4>
+        <p>Let's imagine I'm planning a party. I've used an array to list out all the people I have invited.<br><br>
+
+          Each person has a specific position/number identifier in our list (array).<br>
+          However, unlike what we've traditionally been taught, we start counting from zero.<br>
+          The first person is at position 0, the second at position 1, and so on. <br>
+          These positions are the indexes in an array.<br><br>
+          
+          To find a specific friend, I need to know their exact position (index) in the line.<br><br>
+          
+          Objects are like boxes filled with all my party decorations.<br>
+          Each item has a specific label describing it. Not a number.<br>
+          I'd have a label for "balloons", "tablecloths", " streamers", etc.<br>
+          These labels are the properties in an object.<br><br>
+          
+          When I want to find out how many friends are coming to my event I go to our array, find the highest index number  and "+ 1" as we've started counting from zero.<br><br>
+          
+          To find a specific friend, I can call out their position using their index number. If she's the 5th person I invited, she'll be in index number four.<br><br>
+          
+          To find out what kind of cake I bought (an object), I'll look for the label "Cake" in the box and see whatever kind of cake I've put in that label.<br><br>
+          
+          Basically, arrays are like ordered lists where you find things by their position number.<br>
+          Objects are like labeled boxes where you find things by their specific name.</p>
+          <h4>What are Functions?</h4>
+          <p>Functions are boxes that hold blocks of code/instructions. <br>
+            They can be "called upon" or referenced multiple times. <br>
+            They take inputs, we call them “parameters”, then process them, and can sometimes return an output.<br><br>
+            
+            They're helpful as they force you to break down complex problems into smaller chunks.<br>
+            They make things easier to understand and read, easier to change and edit in the future, and easier to test + debug.</p>
+
+           <img
+           id="post-one-wall"
+          src= "/blog/Functions-infographic.png"
+          alt="a pretty infographic showing the parts of a function">
+
+      <a class="link" href="/blog/index.html"> Return to home page</a>
+    </div>
+  </body>
+</html>
