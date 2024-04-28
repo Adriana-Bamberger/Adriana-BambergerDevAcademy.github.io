@@ -1,42 +1,46 @@
 :root {
   /*keeps the colors for me*/
-  --box-background-color: #faf6ec;
-  --border-color: #c2cfb2;
-  --header-color: #800;
-  --sub-header-color: #e37463;
-  --text-color: #efa9ba;
+  --box-background-color: #000000;
+  --border-color: #7e52a0;
+  --header-color: #a8d9ff;
+  --sub-header-color: #b18fd0;
+  --text-color: #a8d9ff;
 }
 html {
   /*keeps things centered*/
   display: flex;
  justify-content: center;
 }
-.eczar-header {
-  /*inports the font */
-  font-family: 'Eczar', sans-serif;
+body {
+  margin: 0;
+  background-color: var(--box-background-color);
+  max-width: 3000px;
+  font-family: "Source Code Pro", monospace;
+}
+
+.source-code-pro-text {
+  font-family: "Source Code Pro", monospace;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
 }
-.body {
-  /*the middle stuff*/
-  background-color: #ffffff;
-  max-width: 3000px;
-  font-family: 'Eczar', sans-serif;
-}
 
 .header {
-  text-align: center;
-  margin: 20px;
-  padding: 20px;
-  background-color: var(--box-background-color);
-  max-width: 1500px;
-  border: 5px solid var(--border-color);
+  display: flex; 
+  flex-direction: column; 
+  background-image: url("/images/Adriana's Blog Header.png");
+  width: 100%; 
+  height: 33vh;
+  object-fit: cover;
 }
 
 .header h1 {
-  font-size: 40px;
+  z-index: 1;
+  text-align: center;
+  font-size: 50px;
   color: var(--header-color);
+  margin: 30px;
+  padding: 30px;
 }
 
 .welcome-box {
@@ -44,7 +48,7 @@ html {
   padding: 25px;
   background-color: var(--box-background-color);
   max-width: 1500px;
-  border: 5px solid var(--border-color);
+  border: 3px solid var(--border-color);
 }
 .welcome-box h2 {
   font-size: 28px;
@@ -69,7 +73,7 @@ html {
   padding: 25px;
   background-color: var(--box-background-color);
   max-width: 1500px;
-  border: 5px solid var(--border-color);
+  border: 3px solid var(--border-color);
 }
 .postbox h2 {
   font-size: 28px;
@@ -117,11 +121,12 @@ html {
   font-size: 18px;
   color: var(--text-color);
 }
-/* my new things fro the upgrade*/
-.header-container {
-  display: flex; /* Makes the container behave like a box for alignment */
-  justify-content: center; /* Centers content horizontally */
-  align-items: center; /* Centers content vertically */
-  height: 30px/* Set a desired height for the header */
-}
 
+/* might not need this, lets have a look
+@media (max-width: 768px) {
+  
+  .banner-img {
+    height: 50vh; 
+  }
+}
+*/
